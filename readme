@@ -1,0 +1,11 @@
+Enable GraphiQL Tool
+--------------------
+Tool becomes accessible at the root /  
+http://localhost:8080/
+
+URL to test
+--------------------
+http://localhost:8080/init
+http://localhost:8080/hello
+http://localhost:8080/simpson
+
