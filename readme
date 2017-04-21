@@ -9,3 +9,14 @@ http://localhost:8080/init
 http://localhost:8080/hello
 http://localhost:8080/simpson
 
+
+Intercepts a webservice at http://localhost:8081/users using a graphql query.
+  
+ http://localhost:8081/users will return a resp as below (people.json needs to be amended with the below)
+  {
+		id: 1,
+		name: "abc",
+		email: "abc@gmail.com"
+	}
+ 
+ http://localhost:8080/rest will return resp based on the grapghql query.
